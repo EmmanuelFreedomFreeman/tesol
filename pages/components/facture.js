@@ -61,5 +61,5 @@ const Facture = React.forwardRef((props, ref) => {
   )
 }
 )
-
+Facture.displayName = "Facture"
 export default Facture
