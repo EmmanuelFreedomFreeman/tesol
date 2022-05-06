@@ -36,10 +36,10 @@ function Pay() {
               <input type="hidden" name="MerchantPassword" value="432d3d0d229b4469b9053e4fbde0bedc"/>
               <input type="hidden" name="Language" value="Fr"/>
               <input type="hidden" name="Reference" value="payment of school fees for the first quarter"/>
-              <input type="hidden" name="accepturl" value="http://localhost:3000/?pay=1&title=1"/>
-              <input type="hidden" name="cancelurl" value="http://localhost:3000/pay"/>
-              <input type="hidden" name="declineurl" value="http://localhost:3000/pay"/>
-              <input type="hidden" name="notifyurl" value="http://localhost:3000/pay"/>
+              <input type="hidden" name="accepturl" value="https://tesol.vercel.app/?pay=1&title=1"/>
+              <input type="hidden" name="cancelurl" value="https://tesol.vercel.app/pay"/>
+              <input type="hidden" name="declineurl" value="https://tesol.vercel.app/pay"/>
+              <input type="hidden" name="notifyurl" value="https://tesol.vercel.app/pay"/>
                   
               <div className='flex flex-row w-1/2 portrait:w-full justify-between ml-2 portrait:ml-0'>
                   <button type="submit" className='bg-blue-500 hover:bg-blue-900 text-center p-4 font-bold ml-5 mb-4 portrait:ml-0 portrait:mr-1 rounded-full '> Validate the payment</button>
